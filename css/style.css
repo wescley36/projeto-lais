@@ -7,13 +7,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: dimgrey;
 }
-header{
-    background-color: white;
-    max-width: 500px;
-    max-height: 200px;
-    text-align: center;
-    margin: 10px;
-}
+
 nav{
     
 }
@@ -26,12 +20,7 @@ nav > a{
 nav > a:hover{
     text-decoration: underline;
 }
-main{
-    background-color: white;
-    width: 600px;
-    height: 400px;
-    text-indent: 1.5em;
-}
+
 footer{
     background-color: black;
     color: white;
