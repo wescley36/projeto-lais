@@ -18,6 +18,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    background-color: #161712;
     box-shadow: 0px 1px 2px red;
     position: sticky;
     align-items: center; /* alinhamento vertical */
@@ -77,6 +78,10 @@ form input[type="submit"]{
     margin: 20px 0;
     background-color: red;
     color: white;
+}
+
+.remove{
+    display: none;
 }
 
 footer{
