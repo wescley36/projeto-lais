@@ -5,7 +5,7 @@
 --cor3:#EE964B;
 --cor4: #F95738; 
 --cor5: #0D3B66; 
-
+--cor6: #5318a0;
 }
 
 *{
@@ -15,37 +15,47 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(90deg, var(--cor4)0%, var(--cor3)100%);
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom ,var(--cor6)10%, var(--cor2),var(--cor3), var(--cor4));
     height: 100vh;
     position: relative;
     color: var(--cor5);
 }
-
-nav{
-    background-image:linear-gradient(var(--cor4), var(--cor3));
-    display: flex; /* junta todos os elementos em uma linha */
-    justify-content: right; /* alinhamento horizontal  */
-    align-items: center; /* alinhamento vertical */
-    height: 50px;    /* altura */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-image:linear-gradient(var(--cor6), var(--cor6));
     box-shadow: 0px 1px 2px #0d0d0d20;
     position: sticky;
+    align-items: center; /* alinhamento vertical */
     top: 0;
+}
+header>a{
+    margin-left: 30px;
+}
+nav{
+    display: flex; /* junta todos os elementos em uma linha */
+    justify-content: right; /* alinhamento horizontal  */
+    height: 50px;    /* altura */
+    align-items: center;
 }
 nav > a{
     text-decoration: none;
     font-weight: bold;
     margin-right: 30px;
-    color: var(--cor5);
+    color: var(--cor1);
 }
 nav > a:hover{
     text-decoration: underline;
-    color: var(--cor1);
+    color: var(--cor2);
 }
 
 h1{
     text-align: center;
     margin: 60px 0;
     font-size: 3em;
+    color: var(--cor1);
+    text-shadow: 1px 2px 2px var(--cor4);
 }
 
 .container{

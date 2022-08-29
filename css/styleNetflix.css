@@ -1,0 +1,91 @@
+:root{
+    /* Color Theme Swatches in Hex */
+    --cor1:#FAF0CA; 
+    --cor2: #9097C0;
+    --cor3:#EE964B;
+    --cor4: #F95738; 
+    --cor5: #0D3B66; 
+    --cor6: #5318a0;
+    }
+*{ margin:0; padding:0;}
+
+body{ 
+    font:100% normal Arial, Helvetica, sans-serif;
+    background:#161712;
+    color: white;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 2px red;
+    position: sticky;
+    align-items: center; /* alinhamento vertical */
+    top: 0;
+}
+header>a{
+    margin-left: 30px;
+}
+nav{
+    display: flex; /* junta todos os elementos em uma linha */
+    justify-content: right; /* alinhamento horizontal  */
+    height: 50px;    /* altura */
+    align-items: center;
+}
+nav > a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+    color: red;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: var(--cor2);
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 1px 2px 2px red;
+    margin: 15px 0;
+}
+form{
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid white;
+    margin: 90px auto;
+}
+form span{
+    margin: 10px 0;
+}
+form select{
+    padding: 5px;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0;  
+}
+form input[type="submit"]{
+    padding: 5px;
+    width: 80px;
+    height:30px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0;
+    background-color: red;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 10px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}

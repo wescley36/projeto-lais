@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!-- Define os tipos de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- define compatibilidade com o navegador edge -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- define a escala para todo tipo de dispositivo visitante -->
+    <link rel="shortcut icon" href="../projeto para a lais/icon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="icon/favicon-16x16.png" type="image/x-icon">
+    <title>Netflix</title> <!-- Titulo da página, aquele que aparece na aba -->
+    <link rel="stylesheet" href="css/styleNetflix.css">
+    <script src="js/netflix.js"></script>
+</head>
+<body>
+    <header>
+            <a href="index.html"><img src="icon/favicon-32x32.png" alt=""></a>
+                <nav>
+            <a href="#">Netflix</a>
+            <a href="#">Fotos</a>
+            <a href="#">Marina</a>
+            <a href="#">Extra</a>
+                </nav>
+    </header>
+                
+    <div class="apresentacao">
+        <h1>Escolha o seu filme ou Série</h1>
+        <p>Que bom te ver por aqui,  que tipo de filme ou série gostaria de assistir hoje?</p>
+    </div>
+
+    <form name="meuForm" method="#" id="formulario">
+            <span>O Que quer ver?</span>
+                <select name="tipo" id="tipo">
+                    <option value="filme">Filme</option>
+                    <option value="serie">Série</option>
+                </select>
+            <span>Qual o Gênero do filme?</span>
+                <select name="genero" id="genero">Gênero
+                    <option value="action">Ação</option>
+                    <option value="adventure">Aventura</option>
+                    <option value="comedie">Comédia</option>
+                    <option value="comedyRomantic">Comédia romântica</option>
+                    <option value="dance">Dança</option>
+                    <option value="documentary">Documentário</option>
+                    <option value="drama">Drama</option>
+                    <option value="fantasy">Fantasia</option>
+                    <option value="ficcaoCientifica">Ficção científica</option>
+                    <option value="mystery">Mistério</option>
+                    <option value="musical">Musical</option>
+                    <option value="romance">Romance</option>
+                    <option value="thriller">Suspense</option>
+                    <option value="horror">Terror</option>
+                </select>
+<!--             <span>Gostaria que fosse de que época?</span>
+                <select name="epoca" id="epoca">
+                    <option value="todas">Qualquer época</option>
+                    <option value="atual">Atual</option>
+                    <option value="ate2015">Anos 2000 até 2015</option>
+                    <option value="antigo">Antes de 2000</option>
+                </select> -->
+                <input type="submit" value="Enviar">
+                <div class="resultado"></div>
+    </form>
+    <footer>
+        <p>Desenvolvido por ©Wescley Vieira</p>
+    </footer>
+    </body>
+    </html>
+</body>
+</html>
