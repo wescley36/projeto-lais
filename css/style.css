@@ -66,7 +66,7 @@ h1{
 }
 .apresentacao{
     text-align: justify;
-    max-width: 400px;
+    min-width: 350px;
     line-height: 1.2em;
     background-color: var(--cor1);
     padding: 20px;
@@ -79,12 +79,10 @@ h1{
 .apresentacao p{
     text-indent: 20px;
 }
-
-
-
 .content{
     max-height: 370px;
     max-width: 600px;
+    min-width: 350px;
     border-radius: 20px;
     overflow: hidden;
 /*     position: relative; 
